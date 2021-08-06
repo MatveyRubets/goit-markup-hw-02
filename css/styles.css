@@ -32,7 +32,6 @@ body {
   color: var(--main-text-color);
   font-family: Roboto, Open Sans, Cabin, sans-serif;
   letter-spacing: 0.03em;
-  list-style-type: none;
 }
 
 .container {
@@ -40,6 +39,10 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+li {
+  list-style-type: none;
 }
 
 .section {
